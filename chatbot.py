@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "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"
+API_KEY = "0000000000"
 API_URL = "https://api.openai.com/v1/engines/davinci-codex/completions"
 
 def chatgpt_response(prompt):
@@ -36,3 +36,5 @@ def chatbot():
 
 if __name__ == "__main__":
     chatbot()
+    
+    print(test)
